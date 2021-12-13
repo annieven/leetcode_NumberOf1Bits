@@ -20,6 +20,6 @@ int main()
     printf("%d => %d 1 bits\n", 11, hammingWeight(11));
     printf("%d => %d 1 bits\n", 3, hammingWeight(3));
     printf("%d => %d 1 bits\n", 0xFFFFFFFF, hammingWeight(0xFFFFFFFF));
-	printf("%d => %d 1 bits\n", 0xFFFFFFFD, hammingWeight(0xFFFFFFFD));
+    printf("%d => %d 1 bits\n", 0xFFFFFFFD, hammingWeight(0xFFFFFFFD));
     return 0;
 }
